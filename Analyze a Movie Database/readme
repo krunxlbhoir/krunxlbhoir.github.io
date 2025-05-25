@@ -1,0 +1,59 @@
+# 🎬 Analyze a Movie Database using SQL
+
+This project demonstrates how to explore and analyze a movie database using structured queries (SQL). 
+The goal is to extract meaningful insights such as top-rated movies, genre trends, and rating behavior using SQL features like `JOIN`, `GROUP BY`, and `HAVING`.
+
+---
+
+## 🧠 Objective
+
+To apply core SQL concepts to analyze movie-related data and answer questions such as:
+- What are the top 5 highest-rated movies?
+- Which genres are most frequently rated?
+- Are there movies with no ratings at all?
+
+---
+
+## 🔧 Tools Used
+
+- SQL (MySQL / SQLite syntax)
+- SQLBolt (for query practice)
+
+---
+
+## 📊 SQL Concepts Used
+
+| Concept         | Use Case                          |
+|----------------|-----------------------------------|
+| `JOIN`          | Combine movies with their ratings |
+| `GROUP BY`      | Aggregate ratings by genre/title  |
+| `HAVING`        | Filter grouped results            |
+| `ORDER BY`      | Rank top movies                   |
+| `LEFT JOIN`     | Identify unrated movies           |
+
+---
+
+## 📈 Summary Insights
+
+- Top-rated movie: Inception
+- Most-rated genre: Sci-Fi
+- Many movies still have zero user ratings, indicating data gaps
+- SQL helps quickly surface both trends and anomalies
+
+---
+
+## 📂 Project Files
+
+| File                                             | Description                          |
+|--------------------------------------------------|--------------------------------------|
+| `SQL_Analysis_Report_Movie_Databaset.pdf`        | Final summary report with findings   |
+| `SQL Analysis.pptx`                              | Presentation slides for sharing      |
+
+---
+
+## 👤 Author
+
+Krunal Bhoir 
+Email: krunalbhoir11@gmail.com
+
+---
