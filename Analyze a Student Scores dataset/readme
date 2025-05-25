@@ -1,0 +1,74 @@
+# 🎓 Analyze a Student Scores Dataset
+
+This project focuses on analyzing a dataset of student scores to extract insights based on gender, class, and subject performance using tools like Excel, and basic formulas.
+
+---
+
+## 📊 Project Overview
+
+Objective: 
+To analyze and summarize student performance data and extract meaningful insights through Excel-based analytics.
+
+Tools Used:
+- Microsoft Excel
+- Formulas: `AVERAGE`, `MAX`, `MIN`, `AVERAGEIF`, `COUNTIF`
+
+---
+
+## 📁 Dataset Fields
+
+| Column        | Description                      |
+|---------------|----------------------------------|
+| Student Name  | Name of the student              |
+| Gender        | Male / Female                    |
+| Subject       | Subject tested                   |
+| Score         | Marks obtained (0–100)           |
+| Class         | e.g., 10A, 10B                   |
+
+---
+
+## 📐 Tasks Performed
+
+| Task                                 | Formula / Tool Used                    |
+|--------------------------------------|----------------------------------------|
+| Total number of students             | `=COUNTA(A2:A11)`                      |
+| Average score                        | `=AVERAGE(D2:D11)`                     |
+| Highest score                        | `=MAX(D2:D11)`                         |
+| Lowest score                         | `=MIN(D2:D11)`                         |
+| Average score by Gender              | `=AVERAGEIF(B2:B11, "Male", D2:D11)`   |
+| Count of students per class          | `=COUNTIF(E2:E11, "10A")`              |
+| Top scorers per class                | Filter & sort (or use Pivot Table)     |
+
+---
+
+## 📈 Insights
+
+- Female students had a higher average score.
+- Class 10B had the highest number of students.
+- The highest individual score was 95, achieved by John.
+
+---
+
+## 📂 Files Included
+
+- `student_scores.csv` (Excel file with formulas)
+- `Student Scores Summary Report.pdf` (PDF summary of findings)
+- `student_scores_presentation.pptx` (Optional slides for presentation)
+
+---
+
+## 🚀 How to Use
+
+1. Open the Excel file using Microsoft Excel.
+2. Explore the formulas used in the analysis.
+3. Use slicers or filters to explore custom views.
+
+---
+
+## 📬 Contact
+
+Author: Krunal Bhoir  
+Email: krunalbhoir11@gmail.com
+
+---
+
