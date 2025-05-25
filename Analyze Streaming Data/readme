@@ -1,0 +1,78 @@
+# 📺 Analyze Streaming Data in Python
+
+This project explores and analyzes streaming platform data (such as Netflix or YouTube) using Python libraries like pandas, matplotlib, and seaborn. 
+The goal is to uncover trends in viewer behavior, video performance, and content patterns through exploratory data analysis (EDA).
+
+---
+
+## 🧠 Objective
+
+- Analyze structured streaming data (e.g., from YouTube or Netflix)
+- Clean and preprocess the data
+- Perform descriptive analysis and visualizations
+- Draw insights into video popularity, upload patterns, and viewer engagement
+
+---
+
+## 🛠 Tools & Libraries
+
+- Python 3
+- pandas – for data manipulation
+- matplotlib / seaborn – for visualizations
+- Google Colab – for running the code
+
+---
+
+## 📂 Dataset Fields
+
+| Column Name        | Description                            |
+|--------------------|----------------------------------------|
+| `video_id`         | Unique identifier of the video         |
+| `title`            | Title of the video                     |
+| `channel`          | Channel name                           |
+| `category`         | Type/genre of content                  |
+| `views`            | Number of views                        |
+| `likes`            | Number of likes                        |
+| `comments`         | Number of comments                     |
+| `published_date`   | Date the video was uploaded            |
+
+---
+
+## 📊 Analysis Performed
+
+| Task                              | Method Used                            |
+|-----------------------------------|----------------------------------------|
+| Load and preview dataset          | `pandas.read_csv()`, `.head()`         |
+| Handle missing values             | `.isnull().sum()`, `.fillna()`         |
+| Remove duplicates                 | `.drop_duplicates()`                   |
+| Summary statistics                | `df.describe()`, `.mean()`, `.median()`|
+| Plot top performing videos        | Bar plot                               |
+| Track upload trends over time     | Line plot (publish dates vs count)     |
+| Analyze content categories        | Pie chart                              |
+
+---
+
+## 📈 Visuals & Insights
+
+- Bar chart of Top 5 Watched Titles
+- Line plot showing Monthly Watch Time Trend 
+- Pie chart of Watch Time by Genre 
+- Key trends in likes, views, and comments across content
+
+---
+
+## 📁 Project Files
+
+| File                                  | Description                               |
+|---------------------------------------|-------------------------------------------|
+| `Streaming Data Analysis.pdf`         | Final PDF report with charts & insights   |
+| `Streaming Data Analysis.pptx`        | Slides summarizing the analysis           |
+
+---
+
+##Author
+
+Krunal Bhoir
+Email: krunalbhoir11@gmail.com
+
+---
