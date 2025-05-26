@@ -1,0 +1,81 @@
+# 🚢 Titanic Dataset - Exploratory Data Analysis (EDA)
+
+This project explores the Titanic dataset, performing exploratory data analysis (EDA) to understand survival patterns based on passenger features like age, class, gender, and fare.
+
+---
+
+## 🎯 Objective
+
+To investigate and visualize:
+- Who survived and who didn’t
+- How survival was influenced by gender, age, and passenger class
+- Relationships between key features using pandas and Seaborn
+
+---
+
+## 📁 Dataset Overview
+
+The dataset includes data on passengers from the Titanic shipwreck.
+
+| Column         | Description                              |
+|----------------|------------------------------------------|
+| `PassengerId`  | Unique ID of the passenger               |
+| `Survived`     | Survival (0 = No, 1 = Yes)               |
+| `Pclass`       | Passenger class (1 = 1st, 2 = 2nd, 3 = 3rd) |
+| `Name`         | Name of the passenger                    |
+| `Sex`          | Gender                                   |
+| `Age`          | Age in years                             |
+| `SibSp`        | Number of siblings/spouses aboard        |
+| `Parch`        | Number of parents/children aboard        |
+| `Fare`         | Ticket fare                              |
+| `Embarked`     | Port of Embarkation (C = Cherbourg, Q = Queenstown, S = Southampton) |
+
+---
+
+## 🧠 Tasks Performed
+
+| Task                               | Description                               |
+|------------------------------------|-------------------------------------------|
+| Load and clean dataset             | Checked nulls, converted data types       |
+| Handle missing values              | Filled `Age`, `Embarked`, dropped `Cabin` |
+| Analyze survival distribution      | Used count plots and histograms           |
+| Compare fare and age distributions | Boxplots and histograms                   |
+| Extract insights from features     | GroupBy + value counts                    |
+
+---
+
+## 📈 Visualizations Used
+
+- 📊 Countplot – Survival by Gender
+- 📊 Countplot – Survival count
+- 📉 Histplot – Age Distribution of Passengers
+- 📦 Boxplot – Age Distribution by Class
+
+> All visuals created using **Seaborn** and **Matplotlib**
+
+---
+
+## 🛠️ Tools Used
+
+- Python (Jupyter Notebook / Google Colab)
+- pandas
+- seaborn
+- matplotlib
+
+---
+
+## 📁 Project Files
+
+| File                                                         | Description                              |
+|--------------------------------------------------------------|------------------------------------------|
+| `Exploratory Data Analysis on the Titanic Dataset.pdf`       | Final written report of findings         |
+| `Exploratory Data Analysis on the Titanic Dataset.pptx`      | Summary presentation slides              |
+
+---
+
+## Author
+
+Krunal Bhoir
+Email: krunalbhoir11@gmail.com
+
+---
