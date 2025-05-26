@@ -1,0 +1,79 @@
+# 🦠 COVID Tracker Dashboard – Power BI Project
+
+This project demonstrates the development of an interactive dashboard in Power BI to track the global impact of the COVID-19 pandemic. 
+The dashboard visualizes key metrics such as total cases, deaths, vaccinations, and trends over time, based on real-world data.
+
+---
+
+## 🎯 Objective
+
+- Visualize the progression of COVID-19 cases across countries and continents
+- Track trends in daily cases, deaths, and vaccinations
+- Enable interactive filtering by country, date, and region
+- Present data through KPI cards, charts, maps, and slicers
+
+---
+
+## 📁 Dataset Source
+
+Data is sourced from **Our World in Data (OWID)**:  
+📥 [owid-covid-data.csv](https://covid.ourworldindata.org/data/owid-covid-data.csv)
+
+| Column Name         | Description                          |
+|---------------------|--------------------------------------|
+| `location`          | Country/region name                  |
+| `date`              | Date of observation                  |
+| `total_cases`       | Cumulative confirmed COVID cases     |
+| `total_deaths`      | Cumulative reported deaths           |
+| `people_vaccinated` | Number of people vaccinated          |
+| `continent`         | Continent of the country             |
+
+---
+
+## 🛠️ Tools Used
+
+- Power BI Desktop
+- Power Query (data cleaning & transformation)
+- DAX (for calculated measures like MAX, SUM, etc.)
+
+---
+
+## 📊 Dashboard Visuals
+
+| Visual Type           | Description                                             |
+|------------------------|---------------------------------------------------------|
+| 💳 KPI Cards           | Show total cases, deaths, and people vaccinated         |
+| 📊 Bar Chart           | Top 10 countries by total cases                         |
+| 📈 Line Chart          | Trend of cases or deaths over time                      |
+| 🥧 Pie Chart           | Show case or vaccine distribution by continent          |
+| 🗺️ Map Chart           | Geographic spread of COVID-19                           |
+| 🎚️ Slicers             | Filters for Country, Continent, and Date Range          |
+
+> ✅ Charts and visuals are fully interactive and filterable.
+
+---
+
+## 📈 Key Insights
+
+- Visual breakdown of top countries by total cases
+- Line chart highlights global and country-specific peaks
+- Pie chart illustrates continent-wise case or vaccine distribution
+- KPI cards provide a snapshot of the pandemic’s global impact
+
+---
+
+## 📁 Project Files
+
+| File                     | Description                                |
+|--------------------------|--------------------------------------------|
+| `covid tracker.pbix`     | Power BI file with full dashboard setup    |
+| `covid tracker.pdf`      | Final report with charts and insights      |
+
+---
+
+## 👤 Author
+
+Krunal Bhoir 
+Email: krunalbhoir11@gmail.com
+
+---
