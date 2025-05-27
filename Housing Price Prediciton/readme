@@ -1,0 +1,75 @@
+# 🏡 Housing Price Prediction – Machine Learning Project
+
+This project demonstrates how to build and evaluate a Linear Regression model using Python to predict house prices based on property features such as area, number of bedrooms, bathrooms, and age. 
+The goal is to understand the relationship between these features and the property price, and use that to make future predictions.
+
+---
+
+## 🎯 Objective
+
+- Predict housing prices based on multiple numerical features
+- Explore the relationship between area, bedrooms, and price
+- Evaluate model accuracy using regression metrics
+- Visualize actual vs predicted values
+
+---
+
+## 📁 Dataset Overview
+
+The dataset includes basic features of 10 houses.
+
+| Column Name     | Description                            |
+|------------------|----------------------------------------|
+| `Area (sqft)`    | Size of the house in square feet       |
+| `Bedrooms`       | Number of bedrooms                     |
+| `Bathrooms`      | Number of bathrooms                    |
+| `Age (years)`    | Age of the house in years              |
+| `Price`          | Target variable (in USD)               |
+
+---
+
+## 🛠 Tools & Libraries
+
+- Python 3
+- pandas
+- scikit-learn
+- matplotlib
+- seaborn
+
+---
+
+## 📊 Steps Performed
+
+| Step                         | Description                                      |
+|------------------------------|--------------------------------------------------|
+| Load and explore data        | Using `pandas.read_csv()` and `.describe()`      |
+| Visualize relationships      | Scatter plot, boxplot to explore trends          |
+| Prepare features and labels  | Separate predictors (X) and target (y)           |
+| Train Linear Regression      | Using `sklearn.linear_model.LinearRegression()`  |
+| Evaluate performance         | Mean Squared Error (MSE), R² Score               |
+| Plot predictions             | Actual vs Predicted plot with `matplotlib`       |
+
+---
+
+## 📈 Key Visualizations
+
+- 📉 Actual vs Predicted Plot – Scatter plot of model output
+- 🧮 R² Score & MSE – Regression evaluation metrics
+
+---
+
+## 📁 Project Files
+
+| File                                                   | Description                                 |
+|--------------------------------------------------------|---------------------------------------------|
+| `Housing_Price_Prediction_Report.pdf`                  | Final report with results and visualizations|
+| `Housing Price Prediction - ML Project Report.pptx`    | Presentation slides for the project         |
+
+---
+
+## Author
+
+Krunal Bhoir
+Email: krunalbhoir11@gmail.com\
+
+---
