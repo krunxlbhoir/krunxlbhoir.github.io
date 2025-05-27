@@ -22,7 +22,7 @@ Each project focuses on a different dataset and tool, designed to extract insigh
 - Basic formulas like `AVERAGE`, `MAX`, `MIN`, `COUNTIF`, `AVERAGEIF`
 - Pivot tables, bar charts, and filtering
 - Insights into student performance based on gender and class
--
+- https://github.com/krunxlbhoir/krunxlbhoir.github.io/tree/main/Analyze%20a%20Student%20Scores%20dataset
 
 ---
 
@@ -38,7 +38,7 @@ Each project focuses on a different dataset and tool, designed to extract insigh
 - Used pandas and matplotlib for EDA
 - Cleaned missing values, visualized top videos and categories
 - Line plots, bar charts, and pie charts
-- ['/Analyze Streaming Data/'](./Analyze Streaming Data)
+- https://github.com/krunxlbhoir/krunxlbhoir.github.io/tree/main/Analyze%20Streaming%20Data
 
 ---
 
