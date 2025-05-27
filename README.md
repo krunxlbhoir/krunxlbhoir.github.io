@@ -21,28 +21,32 @@ Each project focuses on a different dataset and tool, designed to extract insigh
 ### 📘 1. Analyze Student Scores Dataset (Excel)
 - Basic formulas like `AVERAGE`, `MAX`, `MIN`, `COUNTIF`, `AVERAGEIF`
 - Pivot tables, bar charts, and filtering
-- Insights into student performance based on gender and class 
+- Insights into student performance based on gender and class
+- https://github.com/krunxlbhoir/krunxlbhoir.github.io/tree/main/Analyze%20a%20Student%20Scores%20dataset
 
 ---
 
 ### 🎬 2. Analyze a Movie Database (SQL)
 - Joins, aggregations, and filtering
 - Top-rated movies, unrated titles, and genre analysis
-- SQL queries with `JOIN`, `GROUP BY`, `HAVING`, and subqueries 
+- SQL queries with `JOIN`, `GROUP BY`, `HAVING`, and subqueries
+- https://github.com/krunxlbhoir/krunxlbhoir.github.io/tree/main/Analyze%20a%20Movie%20Database
 
 ---
 
 ### 📺 3. Analyze Streaming Data (Python)
 - Used pandas and matplotlib for EDA
 - Cleaned missing values, visualized top videos and categories
-- Line plots, bar charts, and pie charts  
+- Line plots, bar charts, and pie charts
+- https://github.com/krunxlbhoir/krunxlbhoir.github.io/tree/main/Analyze%20Streaming%20Data
 
 ---
 
 ### 🚢 4. Titanic Dataset EDA (Python)
 - Performed exploratory data analysis using Seaborn
 - Visualized survival trends by gender, class, and age
-- Cleaned data, handled missing values, used hist and box plots  
+- Cleaned data, handled missing values, used hist and box plots
+- https://github.com/krunxlbhoir/krunxlbhoir.github.io/tree/main/Exploratory%20Data%20Analysis%20on%20the%20Titanic%20Dataset
 
 ---
 
@@ -50,13 +54,15 @@ Each project focuses on a different dataset and tool, designed to extract insigh
 - Built an interactive Power BI dashboard
 - Visualized global cases, deaths, and vaccinations
 - Used KPI cards, bar charts, line plots, maps, pie charts, and slicers
+- https://github.com/krunxlbhoir/krunxlbhoir.github.io/tree/main/Covid%20Tracker%20Dashboard
 
 ---
 
 ### 🏡 6. Housing Price Prediction (Machine Learning)
 - Linear Regression model using scikit-learn
 - Predicted prices from area, rooms, and house age
-- Evaluated performance with MSE and R² Score  
+- Evaluated performance with MSE and R² Score
+- https://github.com/krunxlbhoir/krunxlbhoir.github.io/tree/main/Housing%20Price%20Prediciton
   
 ---
 
